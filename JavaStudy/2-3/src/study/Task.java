@@ -15,11 +15,9 @@ package study;
     	int b = 20;
     	int c = 30;
     	
-    	plus(a);
+    	
     	System.out.println("plusメソッドの引数が一つの場合:" + plus(a));
-    	plus(a, b);
     	System.out.println("plusメソッドの引数が二つの場合:" + plus(a, b));
-    	plus(a, b, c);
     	System.out.println("plusメソッドの引数が三つの場合:" + plus(a, b, c));
     }
 }
