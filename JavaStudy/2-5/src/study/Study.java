@@ -22,14 +22,11 @@ public class Study {
     public static void main(String args[]) {
 
         // ① 定数を全て使って、String型のListを記述してください。
-    	ArrayList<String> shohinList = new ArrayList<String>() {
-    		{
-    			add(SHOP_SHOHIN_00);
-    			add(SHOP_SHOHIN_01);
-    			add(SHOP_SHOHIN_02);
-    			add(SHOP_SHOHIN_03);
-    		}
-    	};
+    	ArrayList<String> shohinList = new ArrayList<String>();
+    		shohinList.add(SHOP_SHOHIN_00);
+    		shohinList.add(SHOP_SHOHIN_01);
+    		shohinList.add(SHOP_SHOHIN_02);
+    		shohinList.add(SHOP_SHOHIN_03);
 
         // ② 以下の「shopMap.put(shohinList.get(1), 180);」の処理について、コメントを記述してください。
         /*
