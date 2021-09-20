@@ -20,14 +20,14 @@
 .right {
     height: 250px;
     width: 250px;
-    background-color: #8c2727;
     float: left;
 }
 
-.top-right {
-    height: 150px;
-    width: 250px;
+.center {
+    height: 100px;
+    width: 150px;
     background-color: #0093b7;
+    float: left;
 }
 
 .top {
@@ -41,7 +41,7 @@
     height: 150px;
     width: 100px;
     background-color: #ff9e6b;
-    float: left;
+    float: right;
 }
 
 .bottom-right {
