@@ -38,7 +38,7 @@
     }
 
     .main {
-        width: 150px;
+        height: 450px;
     }
 
     .left {
@@ -65,7 +65,7 @@
     }
 
     .footer {
-        height: 200px;
+        height: 100px;
         width: 150px;
     }
 }
