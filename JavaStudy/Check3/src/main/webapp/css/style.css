@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.header {
+	background-color: gray;
+}
+
+label {
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+.date {
+	display: inline-block;
+	padding: 10px;
+	font-size: 10px;
+}
+
+.footer {
+	background-color: gray;
+}
+.main {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.name {
+	display: flex;
+}
+
+.name h1 {
+	margin: auto 10px;
+	display: inline-block;
+}
+
+.id {
+	display: flex;
+}
+
+.id h1 {
+	margin: auto 40px;
+	display: inline-block;
+}
+
+table {
+	height: 40px;
+	width: 300px;
+	border: 1px solid black;
+	display: inline-block;
+}
