@@ -24,27 +24,7 @@ label {
 	padding-bottom: 50px;
 }
 
-.name {
-	display: flex;
-}
-
-.name h1 {
-	margin: auto 10px;
-	display: inline-block;
-}
-
-.id {
-	display: flex;
-}
-
-.id h1 {
-	margin: auto 40px;
-	display: inline-block;
-}
-
-table {
-	height: 40px;
-	width: 300px;
-	border: 1px solid black;
-	display: inline-block;
+td {
+	height: 50px;
+	width: 300px
 }

@@ -5,19 +5,22 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="<%=request.getContextPath() %>/css/style.css">
 </head>
 <body>
 	<%@ include file ="header.jsp" %>
 	
 	<div class="main">
-		<div class="name">
-			<h1>name</h1>
-			<table></table>
-		</div>
-		<div class="id">
-			<h1>id</h1>
-			<table></table>
-		</div>
+		<table>
+		<tr>
+			<th>name</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>id</th>
+			<td></td>
+		</tr>
+		</table>
 	</div>
 
 	<%@ include file ="footer.jsp" %>
