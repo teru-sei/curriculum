@@ -61,23 +61,15 @@ public class ExException {
                     // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
-                    	try {
-                    		ExException.nullpo(1);
-                    	} catch (Exception e) {
-                    			System.out.println(e);
-						}
+                    	ExException.nullpo(1);
                     break;
                     case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
                     // ここへ記述
                     	int[] arrayNumbers = {1, 2, 3, 4};
-                    	
-                    	try {
-                    		int num = arrayNumbers[7];
-						} catch (Exception e) {
-							System.out.println(e);
-						}
+                    
+                    	int num = arrayNumbers[7];
                     break;
                     case CONST_EXCEPTION_TRIGER_CAST:
                     String castedStrValue = (String) CONST_OBJ_FOR_CLASS_CAST;
@@ -115,9 +107,9 @@ public class ExException {
      * @throws Exception 
      */
     // ここへ記述
-    private static void nullpo(int number) throws Exception {
+    private static void nullpo(int number) throws NullPointerException {
     	if (number == 1) {
-    		throw new Exception(CONST_MSG_NULLPO);
+    		throw new NullPointerException(CONST_MSG_NULLPO);
     	}
     }
     /**
