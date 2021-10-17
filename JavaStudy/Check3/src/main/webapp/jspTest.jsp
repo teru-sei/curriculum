@@ -14,11 +14,11 @@
 		<table>
 		<tr>
 			<th>name</th>
-			<td></td>
+			<td><input></td>
 		</tr>
 		<tr>
 			<th>id</th>
-			<td></td>
+			<td><input></td>
 		</tr>
 		</table>
 	</div>
