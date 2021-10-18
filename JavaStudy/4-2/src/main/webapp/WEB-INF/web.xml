@@ -6,11 +6,11 @@
  <servlet>
  <servlet-name>select</servlet-name>
  <!--問① サーブレットのクラス名を入れてください。-->
- <servlet-class>[ここを修正]</servlet-class>
+ <servlet-class>SelectServlet</servlet-class>
  </servlet>
  <servlet-mapping>
  <servlet-name>select</servlet-name>
  <!--問② URLパターンを記述してください。-->
- <url-pattern>[ここを修正]</url-pattern>
+ <url-pattern>/month</url-pattern>
  </servlet-mapping>
 </web-app>
