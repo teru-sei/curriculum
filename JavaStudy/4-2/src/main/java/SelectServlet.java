@@ -1,9 +1,10 @@
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 /**
  * サーブレット
  * HTMLから情報を受け取り、表示させる処理
@@ -20,6 +21,6 @@ public class SelectServlet extends HttpServlet {
         response.setContentType("text/html; charset=UTF-8");
         PrintWriter out = response.getWriter();
         // 問② エビデンスと同じ表示になるように修正しましょう。
-        out.println(request.getParameter("<body>今は" + month + "です。</body>");
+        out.println("<body>今は" + value + "月です。</body>");
     }
 }
