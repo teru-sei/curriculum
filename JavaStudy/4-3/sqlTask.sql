@@ -11,10 +11,10 @@ https://gyazo.com/c23497115e2e6bf9bdad43a86d83b1e6
  
  
 -- 3. 在庫テーブルに店舗テーブル、商品テーブルを「内部結合」し、店舗名・商品名・在庫数を全て取得しなさい。
-SELECT * FROM stock_table AS stock
+SELECT store_name, goods_name, quantity FROM stock_table AS stock
 JOIN store_table AS store ON stock.store_code = store.store_code
 JOIN goods_table AS goods ON stock.goods_code = goods.goods_code
-https://gyazo.com/5894701c4b78b2a12b5dc33b94017233
+https://gyazo.com/6caaaff30ce901c28fc77006e6c8a6e5
  
  
 -- 4. 商品テーブルから全商品の単価の平均値を抽出しなさい。
@@ -23,11 +23,11 @@ https://gyazo.com/a8a5cd2b0b3d96120139cdd7e01aa13d
  
  
 -- 5. 店舗コード='EA01'の在庫数の平均値より大きい在庫数を持つ店舗コードを抽出しなさい。
-SELECT store_code, AVG(quantity) FROM stock_table
+SELECT store_code FROM stock_table
 GROUP BY store_code HAVING AVG(quantity) >
 (SELECT AVG(quantity) FROM stock_table
 WHERE store_code = 'EA01')
-https://gyazo.com/f9c17f0d630413be8995602932251b0e
+https://gyazo.com/486eebbdb2091601fc5a011d8ed06c03
  
  
 -- 6. 商品テーブルに「商品コード='M001'、商品名='マフラー'、単価=4500円、更新日付=本日日付」のデータを追加しなさい。※実行後のSELECT結果も貼付すること。
