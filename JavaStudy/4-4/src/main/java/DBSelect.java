@@ -6,33 +6,30 @@ import java.sql.Statement;
  
 /**
  * ■ データベースに接続するプログラム
+ * データベースに接続し、任意のカラムを表示させる処理。
  *
- * カリキュラム「JDBCドライバ」を参考に
- * JDBCドライブのjarファイルの設置とビルドパスの追加も忘れないようにしましょう。
- *
- * 問①〜問④までを回答し、データベースと接続してみましょう。
- * カリキュラム「データベースを扱うための準備」を参考にしてください。
+ * 問①〜問⑥までの回答をお願いします。
  *
  * 実行結果の提出に関しては、
  * いつも通りソースをコミットしていただきますが、
  * 今回は実行結果のスクリーンショットも合わせて提出していただきます。
- * 画像名はDBAccess.pngとして、4-4フォルダの中に入れ、これまでと同様に提出してください。
+ * 画像名はDBSelect.pngとして、4-4フォルダの中に入れ、これまでと同様に提出してください。
  *
  */
  
-public class DBAccess {
+public class DBSelect {
 
     /** ドライバーのクラス名 */
     private static final String POSTGRES_DRIVER = "org.postgresql.Driver";
     /** ・JDMC接続先情報 */
     // 問① データベースのホスト名・データベース名を定数にしなさい。
-    private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
+    private static final String JDBC_CONNECTION =
     /** ・ユーザー名 */
     // 問② データベースのユーザー名を定数にしなさい。
-    private static final String USER = "postgres";
+    private static final String USER =
     /** ・パスワード */
     // 問③ データベースのパスワードを定数にしなさい。
-    private static final String PASS = "postage";
+    private static final String PASS =
 
     public static void main(String[] args) {
 
@@ -44,30 +41,30 @@ public class DBAccess {
             Class.forName(POSTGRES_DRIVER);
             // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
             connection = DriverManager.getConnection(
-            "jdbc:postgresql://localhost:5432/lesson_db", "postages", "postage");
+            "jdbc:postgresql://【ホスト名】/【データベース名】", "【ユーザ名】", "【パスワード】");
             statement = connection.createStatement();
-
-            String SQL = "SELECT * FROM TB_SHOHIN";
+            // 問⑤ SHOHIN_IDが001と020のものを表示させるためのSQL文を記述しましょう。
+            String SQL = "ここにSQLを記述してください。";
             resultSet = statement.executeQuery(SQL);
 
             while (resultSet.next()) {
-                String column1 = resultSet.getString("SHOHIN_ID");
-                String column2 = resultSet.getString("SHOHIN_NAME");
-                int column3 = resultSet.getInt("TANKA");
+                // 問⑥ それぞれカラム名を入力してください。
+                String column1 = resultSet.getString("商品IDのカラム名");
+                String column2 = resultSet.getString("商品名のカラム名");
+                int column3 = resultSet.getInt("単価のカラム名");
 
                 System.out.print(column1 + ",");
                 System.out.print(column2 + ",");
                 System.out.println(column3);
             }
 
-            // forName()で例外発生
+        // forName()で例外発生
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
 
-            // getConnection()、createStatement()、executeQuery()で例外発生
+        // getConnection()、createStatement()、executeQuery()で例外発生
         } catch (SQLException e) {
             e.printStackTrace();
-
         } finally {
             try {
                 if (resultSet != null) {
@@ -79,10 +76,8 @@ public class DBAccess {
                 if (connection != null) {
                     connection.close();
                 }
-
             } catch (SQLException e) {
                 e.printStackTrace();
-
             }
         }
     }
