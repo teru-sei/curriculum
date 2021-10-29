@@ -24,10 +24,10 @@ https://gyazo.com/a8a5cd2b0b3d96120139cdd7e01aa13d
  
 -- 5. 店舗コード='EA01'の在庫数の平均値より大きい在庫数を持つ店舗コードを抽出しなさい。
 SELECT store_code FROM stock_table
-GROUP BY store_code HAVING AVG(quantity) >
+WHERE quantity >
 (SELECT AVG(quantity) FROM stock_table
 WHERE store_code = 'EA01')
-https://gyazo.com/486eebbdb2091601fc5a011d8ed06c03
+https://gyazo.com/df6a5758909ad082761216c806c40f46
  
  
 -- 6. 商品テーブルに「商品コード='M001'、商品名='マフラー'、単価=4500円、更新日付=本日日付」のデータを追加しなさい。※実行後のSELECT結果も貼付すること。

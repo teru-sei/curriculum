@@ -29,7 +29,7 @@ public class DBAccess {
     private static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db";
     /** ・ユーザー名 */
     // 問② データベースのユーザー名を定数にしなさい。
-    private static final String USER = "postages";
+    private static final String USER = "postgres";
     /** ・パスワード */
     // 問③ データベースのパスワードを定数にしなさい。
     private static final String PASS = "postage";
