@@ -41,7 +41,7 @@ public class DBSelect {
             Class.forName(POSTGRES_DRIVER);
             // 問④ 問①〜③の定数を使ってデータベースと接続しなさい。
             connection = DriverManager.getConnection(
-            		"jdbc:postgresql://localhost:5432/lesson_db", "postgres",  "postage");
+            		JDBC_CONNECTION, USER, PASS);
             statement = connection.createStatement();
             // 問⑤ SHOHIN_IDが001と020のものを表示させるためのSQL文を記述しましょう。
             String SQL = "SELECT * FROM tb_shohin WHERE shohin_id = '001' OR shohin_id = '020'";
