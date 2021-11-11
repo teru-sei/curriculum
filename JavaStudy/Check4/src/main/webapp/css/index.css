@@ -16,7 +16,7 @@
  color: white;
  /* 問③ 背景に対して文字を縦方向に中央揃え */
  height: 25px;
- line-height: 25px
+ line-height: 25px;
 }
  
 ul li {
@@ -52,5 +52,5 @@ ul li.pass {
  color: white;
  /* 問⑥ 背景に対して文字を縦方向に中央揃え */
  height: 25px;
- line-height: 25px
+ line-height: 25px;
 }

@@ -31,11 +31,11 @@ public class EmployeeService {
  
   // 問② 入力された値で、UPDATEする文
  /** ・SQL UPDATE文 */
- private static final String SQL_UPDATE = "UPDATE Employee_table SET login time = ?, id = ?";
+ private static final String SQL_UPDATE = "UPDATE Employee_table SET login_time = ? where id = ?";
  
   // 問③ 入力されたIDとPassWordをキーにして、検索するSELECT文
  /** ・SQL SELECT文 */
- private static final String SQL_SELECT = "SELECT * FROM Employee_table where id = ?, password = ?";
+ private static final String SQL_SELECT = "SELECT * FROM Employee_table where id = ? AND password = ?";
  
  EmployeeBean employeeDate = null;
  
@@ -80,7 +80,7 @@ public class EmployeeService {
  preparedStatement.setString(1, id);
  preparedStatement.setString(2, password);
   // SQLを実行。実行した結果をresultSetに格納。
- resultSet = preparedStatement.executeQuery();
+ resultSet = preparedStatement.executeQuery(SQL_SELECT);
  
  while (resultSet.next()) {
   // 問⑦ tmpName,tmpComment,tmpLoginTimeに適当な値を入れてください。
@@ -90,9 +90,9 @@ public class EmployeeService {
  
   // 問⑧ EmployeeBeanに取得したデータを入れてください。
  employeeDate = new EmployeeBean();
- employeeDate.setName("Name");
- employeeDate.setComment("Comment");
- employeeDate.setLogin_Time("Login_Time");
+ employeeDate.setName(tmpName);
+ employeeDate.setComment(tmpComment);
+ employeeDate.setLogin_Time(tmpLoginTime);
  }
  
   // forName()で例外発生
