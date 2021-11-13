@@ -70,7 +70,7 @@ public class EmployeeService {
  preparedStatement.setString(1, login_time);
  preparedStatement.setString(2, id);
   // 問⑤ UPDATEを実行する文を記述
- preparedStatement.executeUpdate(SQL_UPDATE);
+ preparedStatement.executeUpdate();
  /*
  * UPDATEが成功したものを即座に表示
  * 任意のユーザーを検索できるように、プリペアドステートメントを記述。
@@ -80,7 +80,7 @@ public class EmployeeService {
  preparedStatement.setString(1, id);
  preparedStatement.setString(2, password);
   // SQLを実行。実行した結果をresultSetに格納。
- resultSet = preparedStatement.executeQuery(SQL_SELECT);
+ resultSet = preparedStatement.executeQuery();
  
  while (resultSet.next()) {
   // 問⑦ tmpName,tmpComment,tmpLoginTimeに適当な値を入れてください。
