@@ -14,11 +14,11 @@ public final class ConstSQL {
     /** JDMC接続先情報 */
     // MEMO: PostgreSQLを複数バージョン使用している場合は、ポート番号も指定
     // TODO: 接続先のポート番号は個々で異なるため、pgAdminのPostgreSQLより、接続先設定を参照してXXXXへ記述すること。
-    public static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5434/lesson_db?useUnicode=true&characterEncoding=utf8";
+    public static final String JDBC_CONNECTION = "jdbc:postgresql://localhost:5432/lesson_db?useUnicode=true&characterEncoding=utf8";
     /** ユーザー名 */
     public static final String JDBC_POSTGRES_USER = "postgres";
     /** パスワード */
-    public static final String JDBC_POSTGRES_PASS = "postgres";
+    public static final String JDBC_POSTGRES_PASS = "postage";
 
     // FIXME Step-2: 以下のSELECT文、INSERT文、UPDATE文を記述しなさい
     // Tips: 更新値や条件値には「?」を使用してください
