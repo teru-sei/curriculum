@@ -1,5 +1,6 @@
 package service;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -7,16 +8,14 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
+// FIXME Step-5-1: 「EmployeeBean, ResponseBean, ConstMessage, ConstSQL, EmployeeDao, SC5Exception, Logger」をインポートしなさい。
 import bean.EmployeeBean;
 import bean.ResponseBean;
 import constant.ConstMessage;
 import constant.ConstSQL;
 import dao.EmployeeDao;
-import dao.EmployeeDao.ExecuteCase;
 import exception.MVCException;
-
-// FIXME Step-5-1: 「EmployeeBean, ResponseBean, ConstMessage, ConstSQL, EmployeeDao, SC5Exception, Logger」をインポートしなさい。
-// [ここへ記述]
+import logger.Logger;;
 
 /**
  * 社員情報管理サービス
@@ -186,7 +185,9 @@ public final class EmployeeManagementService extends BaseService implements Empl
                 // FIXME Step-5-4: pEmployeeBeanListの「1件目の要素のみ」から社員情報を取得しなさい。
                 // Tips1: ループ文を使用すること（正解は複数パターンあります）
                 // Tips2: 格納先はローカル変数のempとすること
-                // [ここへ記述]
+                for(EmployeeBean employeeBean : pEmployeeBeanList) {
+                	emp = employeeBean;
+                }
 
                 if (Objects.nonNull(emp)) {
                     Logger.log(new Throwable(), "pEmployeeBeanList[0].empId = " + emp.getEmpId());
@@ -197,8 +198,8 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // 1. 上記で構築したSELECT文を引数にして、connectionよりプリペアードステートメントオブジェクトを作成
                     // 2. 1で作成したオブジェクトをpreparedStatementへ格納
                     // Tips: sbQueryは、sbQuery.toString()でStringへ変換
-                    // [ここへ記述]
-
+                    PreparedStatement preparedStatement = connection.prepareStatement(sbQuery.toString());
+                    
                     // LIKEを使用するため、パラメータを編集
                     final String empId = ExecuteCase.FIND_BY_EMPID_WITH_LIKE.equals(eCase)
                             ? ("%" + emp.getEmpId() + "%")
@@ -206,10 +207,11 @@ public final class EmployeeManagementService extends BaseService implements Empl
 
                     // FIXME Step-5-6: preparedStatementに適切なパラメーターをセットしなさい。
                     // Tips: パラメータをセットするインデックスに注意
-                    // [ここへ記述]
+                    preparedStatement.setString(1, empId);
 
                     // FIXME Step-5-7: preparedStatementよりSQL(SELECT文)を実行し、resultSetへ結果を格納しなさい。
-                    // [ここへ記述]
+                    resultSet = preparedStatement.executeQuery();
+                    
 
                     Logger.log(new Throwable(), "SQL: " +  this.preparedStatement.toString());
                 }

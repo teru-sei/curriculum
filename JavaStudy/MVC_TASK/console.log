@@ -1,0 +1,118 @@
+情報: Serverのバージョン名:     Apache Tomcat/10.0.6 [日 12月 19 17:14:52 JST 2021]
+情報: Server ビルド:            May 8 2021 15:24:15 UTC [日 12月 19 17:14:52 JST 2021]
+情報: サーバーのバージョン番号: 10.0.6.0 [日 12月 19 17:14:52 JST 2021]
+情報: OS 名:                    Windows 10 [日 12月 19 17:14:52 JST 2021]
+情報: OS バージョン:            10.0 [日 12月 19 17:14:52 JST 2021]
+情報: アーキテクチャ:           amd64 [日 12月 19 17:14:52 JST 2021]
+情報: Java Home:                C:\pleiades\java\16 [日 12月 19 17:14:52 JST 2021]
+情報: JVM バージョン:           16.0.1+9 [日 12月 19 17:14:52 JST 2021]
+情報: JVM ベンダ:               AdoptOpenJDK [日 12月 19 17:14:52 JST 2021]
+情報: CATALINA_BASE:            C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [日 12月 19 17:14:52 JST 2021]
+情報: CATALINA_HOME:            C:\pleiades\tomcat\10 [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.base=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\10 [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [日 12月 19 17:14:52 JST 2021]
+情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [日 12月 19 17:14:52 JST 2021]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Ruby26-x64\bin;C:\Ruby27-x64\bin;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;;C:\pleiades\eclipse;;.] に存在しません。 [日 12月 19 17:14:52 JST 2021]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [日 12月 19 17:14:53 JST 2021]
+情報: サーバーの初期化 [578]ms [日 12月 19 17:14:53 JST 2021]
+情報: サービス [Catalina] を起動します [日 12月 19 17:14:53 JST 2021]
+情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.6] [日 12月 19 17:14:53 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [日 12月 19 17:14:53 JST 2021]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [日 12月 19 17:14:53 JST 2021]
+情報: サーバーの起動 [646]ms [日 12月 19 17:14:53 JST 2021]
+重大: パス[/MVC_TASK]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+生成されたJavaファイル：[C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\work\Catalina\localhost\MVC_TASK\org\apache\jsp\login_jsp.java]の[19]行でエラーが発生しました。
+Only a type can be imported. skillcheck.bean.ResponseBean resolves to a package
+
+生成されたJavaファイル：[C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\work\Catalina\localhost\MVC_TASK\org\apache\jsp\login_jsp.java]の[20]行でエラーが発生しました。
+Only a type can be imported. skillcheck.bean.EmployeeBean resolves to a package
+
+生成されたJavaファイル：[C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\work\Catalina\localhost\MVC_TASK\org\apache\jsp\login_jsp.java]の[21]行でエラーが発生しました。
+Only a type can be imported. skillcheck.logger.Logger resolves to a package
+
+JSPファイル: [/login.jsp] の中の[22]行目でエラーが発生しました
+EmplyeeBean cannot be resolved to a type
+19:         if (Objects.nonNull(rb)) {
+20:             requestStatus = rb.getRequestStaus();
+21:             message = rb.getMessage();
+22:             EmplyeeBean emp = rb.getEmplyeeBeanList().stream().findFirst().orElse(null);
+23:             if (Objects.nonNull(emp)) empId = emp.getEmpId();
+24:         }
+25:         return new Object[]{requestStatus, message, empId};
+
+
+JSPファイル: [/login.jsp] の中の[36]行目でエラーが発生しました
+Logger cannot be resolved
+33: 
+34:     try {
+35:         if (Objects.isNull(session) || session.isNew()) {
+36:             Logger.log(new Throwable(), "セッションなし");
+37:             Object[] objects = rmdGetResponseInfo.apply(request);
+38:             requestStatus = (int) objects[0];
+39:             message = (String) objects[1];
+
+
+JSPファイル: [/login.jsp] の中の[42]行目でエラーが発生しました
+Logger cannot be resolved
+39:             message = (String) objects[1];
+40:             empId = (String) objects[2];
+41:         } else {
+42:             Logger.log(new Throwable(), "セッションあり");
+43:             // session: redirect
+44:             final String redirect = (String) session.getAttribute("redirect");
+45:             if (Objects.nonNull(redirect)) {
+
+
+JSPファイル: [/login.jsp] の中の[46]行目でエラーが発生しました
+Logger cannot be resolved
+43:             // session: redirect
+44:             final String redirect = (String) session.getAttribute("redirect");
+45:             if (Objects.nonNull(redirect)) {
+46:                 Logger.log(new Throwable(), "redirect = " + redirect);
+47:                 message = redirect;
+48:                 session.invalidate();
+49:             }
+
+
+JSPファイル: [/login.jsp] の中の[57]行目でエラーが発生しました
+EmployeeBean cannot be resolved to a type
+54:                 if (Objects.nonNull(rb)) {
+55:                     requestStatus = rb.getRequestStaus();
+56:                     message = rb.getMessage();
+57:                     EmployeeBean emp = rb.getEmplyeeBeanList().stream().findFirst().orElse(null);
+58:                     if (Objects.nonNull(emp)) {
+59:                         empId = emp.getEmpId();
+60:                     }
+
+
+JSPファイル: [/login.jsp] の中の[63]行目でエラーが発生しました
+Logger cannot be resolved
+60:                     }
+61:                 }
+62:             }
+63:             Logger.log(new Throwable(), "message = " + message);
+64:         }
+65:     } catch (Exception e) {
+66:         Logger.log(new Throwable(), e);
+
+
+JSPファイル: [/login.jsp] の中の[66]行目でエラーが発生しました
+Logger cannot be resolved
+63:             Logger.log(new Throwable(), "message = " + message);
+64:         }
+65:     } catch (Exception e) {
+66:         Logger.log(new Throwable(), e);
+67:     }
+68: %>
+69: <!DOCTYPE html>
+
+
+Stacktrace:]が根本的要因と共に投げられました。 [日 12月 19 17:14:56 JST 2021]
