@@ -19,7 +19,7 @@
         if (Objects.nonNull(rb)) {
             requestStatus = rb.getRequestStaus();
             message = rb.getMessage();
-            EmplyeeBean emp = rb.getEmplyeeBeanList().stream().findFirst().orElse(null);
+            EmployeeBean emp = rb.getEmplyeeBeanList().stream().findFirst().orElse(null);
             if (Objects.nonNull(emp)) empId = emp.getEmpId();
         }
         return new Object[]{requestStatus, message, empId};
