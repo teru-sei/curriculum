@@ -47,7 +47,7 @@ public class AccountService implements UserDetailsService {
     public void registerAdmin(String username, String password, String mailAddress) {
         //問３－３ 引数をもとにAccountクラスのインスタンスを生成する構文を記述（passwordはハッシュ化）
         Account user = new Account(username, passwordEncoder.encode(password), mailAddress);
-        user.setManager(true);
+        user.setAdmin(true);
         //userをもとにadmin情報の登録か更新を行う
         repository.save(user);
     }
