@@ -4,9 +4,9 @@
 <%@ page import="java.util.Objects"%>
 <%@ page import="java.util.List"%>
 <%@ page import="java.util.function.Function"%>
-<%@ page import="skillcheck.bean.ResponseBean"%>
-<%@ page import="skillcheck.bean.EmployeeBean"%>
-<%@ page import="skillcheck.logger.Logger"%>
+<%@ page import="bean.ResponseBean"%>
+<%@ page import="bean.EmployeeBean"%>
+<%@ page import="logger.Logger"%>
 
 <%
     //リクエストより社員番号を取得: 関数型インターフェース（ラムダ式）
@@ -73,8 +73,8 @@
 <!-- FIXME Step-1-1: login.jspに適用するcssファイルのリンクタグを記述しなさい。-->
 <!-- Tips1: common.css、login.cssの2つを適用-->
 <!-- Tips2: 適用するcssファイルのパスの書き方に注意 -->
-<link rel=”stylesheet” type=”text/css” href=”css/common.css”>
-<link rel=”stylesheet” type=”text/css” href=”css/login.css”>
+<link rel=”stylesheet” type=”text/css” href=”/css/common.css”>
+<link rel=”stylesheet” type=”text/css” href=”/css/login.css”>
 <script type="text/javascript" src="js/common.js"/></script>
 <title>ログイン</title>
 </head>
@@ -87,7 +87,7 @@
             <!-- 1. エラー（message）表示時に使用するlabelタグの準備-->
             <!-- 2. class属性と、適用するスタイルの記述-->
             <!-- Tips: common.cssより赤色の文字色を定義しているスタイルを確認 -->
-            <label class="error" style= error-label></label>
+            <label class="error" style="error-label"></label>
             <br>
         <% } %>
         <!-- FIXME Step-1-3: actionに送信先URIを記述しなさい。 -->

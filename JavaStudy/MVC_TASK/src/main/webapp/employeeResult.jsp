@@ -2,9 +2,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8;" pageEncoding="UTF-8"%>
 <%@ page import="java.util.Objects"%>
 <%@ page import="java.util.List"%>
-<%@ page import="skillcheck.bean.ResponseBean"%>
-<%@ page import="skillcheck.bean.EmployeeBean"%>
-<%@ page import="skillcheck.logger.Logger"%>
+<%@ page import="bean.ResponseBean"%>
+<%@ page import="bean.EmployeeBean"%>
+<%@ page import="logger.Logger"%>
 
 <!-- Java -->
 <%
