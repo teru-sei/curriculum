@@ -107,12 +107,12 @@ public final class EmployeeBean {
     /**
      * @param empId <pre>セットするStringクラスの名前</pre>
      */
-	public void setname(String name) {
+	public void setName(String name) {
 		this._name = name;
 	}
 
     /** @return String型の名前 */
-	public String getname() {
+	public String getName() {
 			return _name;
 	}
 
