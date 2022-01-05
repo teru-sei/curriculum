@@ -90,7 +90,7 @@
         <% } %>
         <!-- FIXME Step-1-3: actionに送信先URIを記述しなさい。 -->
         <!-- Tips: 「/このプロジェクト/web.xmlに記述されているservlet-name」 -->
-        <form action="employee" method="post">
+        <form action="/MVC_TASK/employee" method="post">
             <div class="div-input-flex-area">
                 <div>
                     <label>社員番号　: </label>

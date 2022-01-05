@@ -10,6 +10,7 @@ import java.util.Objects;
 import bean.ResponseBean;
 import constant.ConstMessage;
 import exception.MVCException;
+import logger.Logger;
 
 /**
  * サービス: 親クラス（abstract）

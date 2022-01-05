@@ -13,6 +13,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import logger.Logger;
 import service.EmployeeManagementService;
 import util.PasswordHashUtil;
 
@@ -29,13 +30,13 @@ public abstract class BaseServlet extends HttpServlet {
 
     // FIXME Step-3: 定数定義
     // FIXME Step-3-1: リクエスト判別用のボタンの属性名を記述しなさい。
-    protected static final String CONST_ELEMENT_NAME_REQUEST = "request";
+    protected static final String CONST_ELEMENT_NAME_REQUEST = "requestType";
     protected static final String CONST_REQUST_KEY_FOR_SENDER = "sender";
     protected static final String CONST_REQUST_KEY_FOR_REDIRECT = "redirect";
     protected static final String CONST_REQUST_KEY_FOR_RESPONSE_BEAN = "responseBean";
 
     /** ・リクエスト対象（リクエスト&レスポンスを渡す先）のjspファイル */
-    protected static final String CONST_DESTINATION_LOGIN_JSP = "/MVC_Task/login.jsp";
+    protected static final String CONST_DESTINATION_LOGIN_JSP = "/MVC_TASK/login.jsp";
     // FIXME Step-3-2: 実行結果表示用のjspファイルのパスを記述しなさい。
     protected static final String CONST_DESTINATION_RESULT_JSP = "jdbc:postgresql://localhost:5432/lesson_db/employeeResult.jsp";
 
