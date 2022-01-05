@@ -1,73 +1,53 @@
-情報: Serverのバージョン名:     Apache Tomcat/10.0.6 [水 1月 05 13:30:52 JST 2022]
-情報: Server ビルド:            May 8 2021 15:24:15 UTC [水 1月 05 13:30:52 JST 2022]
-情報: サーバーのバージョン番号: 10.0.6.0 [水 1月 05 13:30:52 JST 2022]
-情報: OS 名:                    Windows 10 [水 1月 05 13:30:52 JST 2022]
-情報: OS バージョン:            10.0 [水 1月 05 13:30:52 JST 2022]
-情報: アーキテクチャ:           amd64 [水 1月 05 13:30:52 JST 2022]
-情報: Java Home:                C:\pleiades\java\16 [水 1月 05 13:30:52 JST 2022]
-情報: JVM バージョン:           16.0.1+9 [水 1月 05 13:30:52 JST 2022]
-情報: JVM ベンダ:               AdoptOpenJDK [水 1月 05 13:30:52 JST 2022]
-情報: CATALINA_BASE:            C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [水 1月 05 13:30:52 JST 2022]
-情報: CATALINA_HOME:            C:\pleiades\tomcat\10 [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       -Dcatalina.base=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\10 [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [水 1月 05 13:30:52 JST 2022]
-情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [水 1月 05 13:30:52 JST 2022]
-情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Ruby26-x64\bin;C:\Ruby27-x64\bin;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;;C:\pleiades\eclipse;;.] に存在しません。 [水 1月 05 13:30:52 JST 2022]
-情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [水 1月 05 13:30:52 JST 2022]
-情報: サーバーの初期化 [1669]ms [水 1月 05 13:30:52 JST 2022]
-情報: サービス [Catalina] を起動します [水 1月 05 13:30:52 JST 2022]
-情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.6] [水 1月 05 13:30:52 JST 2022]
-情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [水 1月 05 13:30:54 JST 2022]
-情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [水 1月 05 13:30:54 JST 2022]
-情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [水 1月 05 13:30:54 JST 2022]
-情報: サーバーの起動 [2294]ms [水 1月 05 13:30:55 JST 2022]
-[MEMORY:15156944][2022/01/05 01:30:56.775] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
-[MEMORY:16554824][2022/01/05 01:31:13.920] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:16554824][2022/01/05 01:31:13.931] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:16554824][2022/01/05 01:31:13.947] [controller.EmployeeManagementController] [doPost] [97] START
-[MEMORY:16554824][2022/01/05 01:31:13.949] [controller.EmployeeManagementController] [getRequestType] [193] START
-[MEMORY:16554824][2022/01/05 01:31:13.954] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
-[MEMORY:16554824][2022/01/05 01:31:13.956] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@c0213ac
-[MEMORY:16554824][2022/01/05 01:31:13.956] [controller.EmployeeManagementController] [getRequestType] [225] END
-[MEMORY:16554824][2022/01/05 01:31:13.958] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
-[MEMORY:16554824][2022/01/05 01:31:13.958] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:16554824][2022/01/05 01:31:13.958] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:16554824][2022/01/05 01:31:13.961] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = responseBean
-[MEMORY:16554824][2022/01/05 01:31:13.962] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
-[MEMORY:16554824][2022/01/05 01:31:13.962] [controller.BaseServlet] [validateLogin] [136] START
+情報: Serverのバージョン名:     Apache Tomcat/10.0.6 [水 1月 05 14:35:03 JST 2022]
+情報: Server ビルド:            May 8 2021 15:24:15 UTC [水 1月 05 14:35:03 JST 2022]
+情報: サーバーのバージョン番号: 10.0.6.0 [水 1月 05 14:35:03 JST 2022]
+情報: OS 名:                    Windows 10 [水 1月 05 14:35:03 JST 2022]
+情報: OS バージョン:            10.0 [水 1月 05 14:35:03 JST 2022]
+情報: アーキテクチャ:           amd64 [水 1月 05 14:35:03 JST 2022]
+情報: Java Home:                C:\pleiades\java\16 [水 1月 05 14:35:03 JST 2022]
+情報: JVM バージョン:           16.0.1+9 [水 1月 05 14:35:03 JST 2022]
+情報: JVM ベンダ:               AdoptOpenJDK [水 1月 05 14:35:03 JST 2022]
+情報: CATALINA_BASE:            C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [水 1月 05 14:35:03 JST 2022]
+情報: CATALINA_HOME:            C:\pleiades\tomcat\10 [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.base=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\10 [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [水 1月 05 14:35:03 JST 2022]
+情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [水 1月 05 14:35:03 JST 2022]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Ruby26-x64\bin;C:\Ruby27-x64\bin;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;;C:\pleiades\eclipse;;.] に存在しません。 [水 1月 05 14:35:03 JST 2022]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [水 1月 05 14:35:03 JST 2022]
+情報: サーバーの初期化 [592]ms [水 1月 05 14:35:03 JST 2022]
+情報: サービス [Catalina] を起動します [水 1月 05 14:35:04 JST 2022]
+情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.6] [水 1月 05 14:35:04 JST 2022]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [水 1月 05 14:35:04 JST 2022]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [水 1月 05 14:35:04 JST 2022]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [水 1月 05 14:35:04 JST 2022]
+情報: サーバーの起動 [878]ms [水 1月 05 14:35:04 JST 2022]
+[MEMORY:11448832][2022/01/05 02:35:05.810] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:12797984][2022/01/05 02:35:25.956] [controller.BaseServlet] [<init>] [55] START
+[MEMORY:12797984][2022/01/05 02:35:25.966] [controller.BaseServlet] [<init>] [59] END
+[MEMORY:12797984][2022/01/05 02:35:25.974] [controller.EmployeeManagementController] [doPost] [97] START
+[MEMORY:12797984][2022/01/05 02:35:25.975] [controller.EmployeeManagementController] [getRequestType] [193] START
+[MEMORY:12797984][2022/01/05 02:35:25.976] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
+[MEMORY:12797984][2022/01/05 02:35:25.976] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@3d41e834
+[MEMORY:12797984][2022/01/05 02:35:25.976] [controller.EmployeeManagementController] [getRequestType] [225] END
+[MEMORY:12797984][2022/01/05 02:35:25.976] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
+[MEMORY:12797984][2022/01/05 02:35:25.977] [controller.BaseServlet] [<init>] [55] START
+[MEMORY:12797984][2022/01/05 02:35:25.977] [controller.BaseServlet] [<init>] [59] END
+[MEMORY:12797984][2022/01/05 02:35:25.978] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = empId
+[MEMORY:12797984][2022/01/05 02:35:25.978] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
+[MEMORY:12797984][2022/01/05 02:35:25.978] [controller.BaseServlet] [validateLogin] [136] START
 ■ 例外発生: [controller.BaseServlet] [validateLogin] [152]
-[MEMORY:16554824][2022/01/05 01:31:13.971] [controller.BaseServlet] [validateLogin] [188] isLoginError = true
-[MEMORY:16554824][2022/01/05 01:31:13.972] [controller.BaseServlet] [validateLogin] [190] END
-[MEMORY:16554824][2022/01/05 01:31:13.973] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
-[MEMORY:16554824][2022/01/05 01:31:13.974] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:16554824][2022/01/05 01:31:13.975] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
-[MEMORY:16554824][2022/01/05 01:31:13.976] [controller.EmployeeManagementController] [doPost] [182] END
-[MEMORY:16877792][2022/01/05 01:31:13.992] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
-[MEMORY:16877792][2022/01/05 01:31:13.993] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:18290216][2022/01/05 01:32:16.474] [controller.EmployeeManagementController] [doPost] [97] START
-[MEMORY:18290216][2022/01/05 01:32:16.475] [controller.EmployeeManagementController] [getRequestType] [193] START
-[MEMORY:18290216][2022/01/05 01:32:16.476] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
-[MEMORY:18290216][2022/01/05 01:32:16.477] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@3585dee5
-[MEMORY:18290216][2022/01/05 01:32:16.479] [controller.EmployeeManagementController] [getRequestType] [225] END
-[MEMORY:18290216][2022/01/05 01:32:16.479] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
-[MEMORY:18290216][2022/01/05 01:32:16.480] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:18290216][2022/01/05 01:32:16.480] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:18290216][2022/01/05 01:32:16.482] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = responseBean
-[MEMORY:18290216][2022/01/05 01:32:16.483] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
-[MEMORY:18290216][2022/01/05 01:32:16.483] [controller.BaseServlet] [validateLogin] [136] START
-■ 例外発生: [controller.BaseServlet] [validateLogin] [152]
-[MEMORY:18290216][2022/01/05 01:32:16.484] [controller.BaseServlet] [validateLogin] [188] isLoginError = true
-[MEMORY:18290216][2022/01/05 01:32:16.485] [controller.BaseServlet] [validateLogin] [190] END
-[MEMORY:18290216][2022/01/05 01:32:16.486] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
-[MEMORY:18290216][2022/01/05 01:32:16.486] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:18290216][2022/01/05 01:32:16.488] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
-[MEMORY:18290216][2022/01/05 01:32:16.489] [controller.EmployeeManagementController] [doPost] [182] END
-[MEMORY:18686384][2022/01/05 01:32:16.505] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
-[MEMORY:18686384][2022/01/05 01:32:16.506] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
+[MEMORY:12797984][2022/01/05 02:35:25.981] [controller.BaseServlet] [validateLogin] [188] isLoginError = true
+[MEMORY:12797984][2022/01/05 02:35:25.981] [controller.BaseServlet] [validateLogin] [190] END
+[MEMORY:12797984][2022/01/05 02:35:25.981] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
+[MEMORY:12797984][2022/01/05 02:35:25.982] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
+[MEMORY:12797984][2022/01/05 02:35:25.982] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
+[MEMORY:12797984][2022/01/05 02:35:25.982] [controller.EmployeeManagementController] [doPost] [182] END
+[MEMORY:13820056][2022/01/05 02:35:25.988] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:14121536][2022/01/05 02:35:25.989] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
