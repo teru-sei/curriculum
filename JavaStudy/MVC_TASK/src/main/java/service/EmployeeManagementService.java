@@ -1,6 +1,5 @@
 package service;
 
-import java.sql.PreparedStatement;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -198,7 +197,7 @@ public final class EmployeeManagementService extends BaseService implements Empl
                     // 1. 上記で構築したSELECT文を引数にして、connectionよりプリペアードステートメントオブジェクトを作成
                     // 2. 1で作成したオブジェクトをpreparedStatementへ格納
                     // Tips: sbQueryは、sbQuery.toString()でStringへ変換
-                    PreparedStatement preparedStatement = connection.prepareStatement(sbQuery.toString());
+                    preparedStatement = connection.prepareStatement(ConstSQL.SELECT_BY_EMPID);
                     
                     // LIKEを使用するため、パラメータを編集
                     final String empId = ExecuteCase.FIND_BY_EMPID_WITH_LIKE.equals(eCase)

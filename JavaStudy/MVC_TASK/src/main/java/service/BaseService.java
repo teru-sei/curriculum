@@ -9,6 +9,7 @@ import java.util.Objects;
 
 import bean.ResponseBean;
 import constant.ConstMessage;
+import constant.ConstSQL;
 import exception.MVCException;
 import logger.Logger;
 
@@ -57,13 +58,13 @@ public abstract class BaseService {
             // Tips: ConstSQLより適切な定数を参照
 
             // FIXME Step-5-2: postgresqlのドライバー名
-            Class.forName("JDBC_POSTGRES_DRIVER");
+            Class.forName(ConstSQL.JDBC_POSTGRES_DRIVER);
 
             // FIXME Step-5-2: DBへ接続するための初期設定（引数すべてに記述すること）
             this.connection = DriverManager.getConnection(
-                    "JDBC_CONNECTION",
-                    "JDBC_POSTGRES_USER",
-                    "JDBC_POSTGRES_PASS");
+            		ConstSQL.JDBC_CONNECTION,
+            		ConstSQL.JDBC_POSTGRES_USER,
+            		ConstSQL.JDBC_POSTGRES_PASS);
 
             // オートコミットOFF
             this.connection.setAutoCommit(false);
