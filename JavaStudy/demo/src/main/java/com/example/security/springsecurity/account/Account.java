@@ -91,6 +91,7 @@ public class Account implements UserDetails {
 			this.authorities.add(Authority.ROLE_ADMIN);
 		} else {
 			this.authorities.remove(Authority.ROLE_ADMIN);
+			this.authorities.add(Authority.ROLE_ADMIN);
 		}
 	}
 
@@ -105,7 +106,7 @@ public class Account implements UserDetails {
 			this.authorities.add(Authority.ROLE_MANAGER);
 		} else {
 			this.authorities.remove(Authority.ROLE_MANAGER);
-			this.authorities.remove(Authority.ROLE_ADMIN);
+			this.authorities.add(Authority.ROLE_ADMIN);
 		}
 	}
 
