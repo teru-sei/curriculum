@@ -1,157 +1,28 @@
-情報: Serverのバージョン名:     Apache Tomcat/10.0.6 [木 1月 13 13:28:18 JST 2022]
-情報: Server ビルド:            May 8 2021 15:24:15 UTC [木 1月 13 13:28:18 JST 2022]
-情報: サーバーのバージョン番号: 10.0.6.0 [木 1月 13 13:28:18 JST 2022]
-情報: OS 名:                    Windows 10 [木 1月 13 13:28:18 JST 2022]
-情報: OS バージョン:            10.0 [木 1月 13 13:28:18 JST 2022]
-情報: アーキテクチャ:           amd64 [木 1月 13 13:28:18 JST 2022]
-情報: Java Home:                C:\pleiades\java\16 [木 1月 13 13:28:18 JST 2022]
-情報: JVM バージョン:           16.0.1+9 [木 1月 13 13:28:18 JST 2022]
-情報: JVM ベンダ:               AdoptOpenJDK [木 1月 13 13:28:18 JST 2022]
-情報: CATALINA_BASE:            C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [木 1月 13 13:28:18 JST 2022]
-情報: CATALINA_HOME:            C:\pleiades\tomcat\10 [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       -Dcatalina.base=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\10 [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [木 1月 13 13:28:18 JST 2022]
-情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [木 1月 13 13:28:18 JST 2022]
-情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Ruby26-x64\bin;C:\Ruby27-x64\bin;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;;C:\pleiades\eclipse;;.] に存在しません。 [木 1月 13 13:28:18 JST 2022]
-情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [木 1月 13 13:28:18 JST 2022]
-情報: サーバーの初期化 [838]ms [木 1月 13 13:28:18 JST 2022]
-情報: サービス [Catalina] を起動します [木 1月 13 13:28:18 JST 2022]
-情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.6] [木 1月 13 13:28:18 JST 2022]
-情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [木 1月 13 13:28:19 JST 2022]
-情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [木 1月 13 13:28:19 JST 2022]
-情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [木 1月 13 13:28:19 JST 2022]
-情報: サーバーの起動 [1364]ms [木 1月 13 13:28:19 JST 2022]
-[MEMORY:12543720][2022/01/13 01:28:21.013] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
-[MEMORY:13065960][2022/01/13 01:28:30.146] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:13065960][2022/01/13 01:28:30.157] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:13065960][2022/01/13 01:28:30.176] [controller.EmployeeManagementController] [doPost] [97] START
-[MEMORY:13065960][2022/01/13 01:28:30.178] [controller.EmployeeManagementController] [getRequestType] [193] START
-[MEMORY:13065960][2022/01/13 01:28:30.181] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
-[MEMORY:13424560][2022/01/13 01:28:30.182] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@3eea94ac
-[MEMORY:13424560][2022/01/13 01:28:30.183] [controller.EmployeeManagementController] [getRequestType] [225] END
-[MEMORY:13424560][2022/01/13 01:28:30.184] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
-[MEMORY:13424560][2022/01/13 01:28:30.184] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:13424560][2022/01/13 01:28:30.185] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:13424560][2022/01/13 01:28:30.186] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = empId
-[MEMORY:13424560][2022/01/13 01:28:30.187] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
-[MEMORY:13424560][2022/01/13 01:28:30.188] [controller.BaseServlet] [validateLogin] [136] START
-[MEMORY:13424560][2022/01/13 01:28:30.194] [service.BaseService] [<init>] [40] START
-[MEMORY:13424560][2022/01/13 01:28:30.195] [service.BaseService] [<init>] [47] END
-[MEMORY:13424560][2022/01/13 01:28:30.200] [service.EmployeeManagementService] [getEmployeeData] [50] START
-[MEMORY:13424560][2022/01/13 01:28:30.200] [service.EmployeeManagementService] [executeDBAccess] [67] START
-[MEMORY:13424560][2022/01/13 01:28:30.201] [service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
-[MEMORY:13424560][2022/01/13 01:28:30.202] [service.BaseService] [executeGetConnection] [54] START
-[MEMORY:18023816][2022/01/13 01:28:31.088] [service.BaseService] [executeGetConnection] [80] END
-[MEMORY:18023816][2022/01/13 01:28:31.089] [service.EmployeeManagementService] [executeSelectQuery] [162] START
-[MEMORY:18023816][2022/01/13 01:28:31.090] [service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 21021
-[MEMORY:18740704][2022/01/13 01:28:31.184] [service.EmployeeManagementService] [executeSelectQuery] [215] SQL: SELECT empid, password, name, mail, programinglanguage, comment FROM Employee WHERE empId = '21021' AND deleteFlg = '0'
-[MEMORY:18740704][2022/01/13 01:28:31.185] [service.EmployeeManagementService] [executeSelectQuery] [234] END
-[MEMORY:18740704][2022/01/13 01:28:31.195] [service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@676227
-[MEMORY:18740704][2022/01/13 01:28:31.197] [service.EmployeeManagementService] [executeDBAccess] [92] empid: 21021
-[MEMORY:18740704][2022/01/13 01:28:31.198] [service.EmployeeManagementService] [executeDBAccess] [92] password: admin23
-[MEMORY:18740704][2022/01/13 01:28:31.199] [service.EmployeeManagementService] [executeDBAccess] [92] name: 井上輝成
-[MEMORY:18740704][2022/01/13 01:28:31.199] [service.EmployeeManagementService] [executeDBAccess] [92] mail: k-inoue210210@cmind-co.jp
-[MEMORY:18740704][2022/01/13 01:28:31.200] [service.EmployeeManagementService] [executeDBAccess] [92] programinglanguage: Java, Ruby
-[MEMORY:18740704][2022/01/13 01:28:31.201] [service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
-[MEMORY:18740704][2022/01/13 01:28:31.202] [service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
-[MEMORY:18740704][2022/01/13 01:28:31.203] [service.BaseService] [executeCloseSQL] [118] START
-[MEMORY:18740704][2022/01/13 01:28:31.205] [service.BaseService] [executeCloseSQL] [129] END
-[MEMORY:18740704][2022/01/13 01:28:31.206] [service.EmployeeManagementService] [executeDBAccess] [148] END
-[MEMORY:18740704][2022/01/13 01:28:31.206] [service.EmployeeManagementService] [getEmployeeData] [54] END
-■ 例外発生: [controller.BaseServlet] [validateLogin] [157]
-[MEMORY:18740704][2022/01/13 01:28:31.209] [controller.BaseServlet] [validateLogin] [190] isLoginError = true
-[MEMORY:18740704][2022/01/13 01:28:31.209] [controller.BaseServlet] [validateLogin] [192] END
-[MEMORY:18740704][2022/01/13 01:28:31.210] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
-[MEMORY:18740704][2022/01/13 01:28:31.210] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:18740704][2022/01/13 01:28:31.211] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
-[MEMORY:18740704][2022/01/13 01:28:31.213] [controller.EmployeeManagementController] [doPost] [182] END
-[MEMORY:19097232][2022/01/13 01:28:31.225] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
-[MEMORY:19097232][2022/01/13 01:28:31.227] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:23227384][2022/01/13 01:53:11.601] [controller.EmployeeManagementController] [doPost] [97] START
-[MEMORY:23227384][2022/01/13 01:53:11.601] [controller.EmployeeManagementController] [getRequestType] [193] START
-[MEMORY:23227384][2022/01/13 01:53:11.603] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@5337232e
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.EmployeeManagementController] [getRequestType] [225] END
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = empId
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
-[MEMORY:23227384][2022/01/13 01:53:11.604] [controller.BaseServlet] [validateLogin] [136] START
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.BaseService] [<init>] [40] START
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.BaseService] [<init>] [47] END
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.EmployeeManagementService] [getEmployeeData] [50] START
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.EmployeeManagementService] [executeDBAccess] [67] START
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
-[MEMORY:23227384][2022/01/13 01:53:11.604] [service.BaseService] [executeGetConnection] [54] START
-[MEMORY:23551720][2022/01/13 01:53:11.746] [service.BaseService] [executeGetConnection] [80] END
-[MEMORY:23551720][2022/01/13 01:53:11.749] [service.EmployeeManagementService] [executeSelectQuery] [162] START
-[MEMORY:23551720][2022/01/13 01:53:11.750] [service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 21021
-[MEMORY:23551720][2022/01/13 01:53:11.767] [service.EmployeeManagementService] [executeSelectQuery] [215] SQL: SELECT empid, password, name, mail, programinglanguage, comment FROM Employee WHERE empId = '21021' AND deleteFlg = '0'
-[MEMORY:23551720][2022/01/13 01:53:11.767] [service.EmployeeManagementService] [executeSelectQuery] [234] END
-[MEMORY:23551720][2022/01/13 01:53:11.767] [service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@5df0d738
-[MEMORY:23551720][2022/01/13 01:53:11.768] [service.EmployeeManagementService] [executeDBAccess] [92] empid: 21021
-[MEMORY:23551720][2022/01/13 01:53:11.769] [service.EmployeeManagementService] [executeDBAccess] [92] password: admin23
-[MEMORY:23551720][2022/01/13 01:53:11.769] [service.EmployeeManagementService] [executeDBAccess] [92] name: 井上輝成
-[MEMORY:23551720][2022/01/13 01:53:11.769] [service.EmployeeManagementService] [executeDBAccess] [92] mail: k-inoue210210@cmind-co.jp
-[MEMORY:23551720][2022/01/13 01:53:11.769] [service.EmployeeManagementService] [executeDBAccess] [92] programinglanguage: Java, Ruby
-[MEMORY:23551720][2022/01/13 01:53:11.769] [service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
-[MEMORY:23551720][2022/01/13 01:53:11.770] [service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
-[MEMORY:23551720][2022/01/13 01:53:11.771] [service.BaseService] [executeCloseSQL] [118] START
-[MEMORY:23551720][2022/01/13 01:53:11.772] [service.BaseService] [executeCloseSQL] [129] END
-[MEMORY:23551720][2022/01/13 01:53:11.772] [service.EmployeeManagementService] [executeDBAccess] [148] END
-[MEMORY:23551720][2022/01/13 01:53:11.772] [service.EmployeeManagementService] [getEmployeeData] [54] END
-■ 例外発生: [controller.BaseServlet] [validateLogin] [157]
-[MEMORY:23551720][2022/01/13 01:53:11.773] [controller.BaseServlet] [validateLogin] [190] isLoginError = true
-[MEMORY:23551720][2022/01/13 01:53:11.774] [controller.BaseServlet] [validateLogin] [192] END
-[MEMORY:23551720][2022/01/13 01:53:11.774] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
-[MEMORY:23551720][2022/01/13 01:53:11.774] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:23551720][2022/01/13 01:53:11.775] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
-[MEMORY:23551720][2022/01/13 01:53:11.775] [controller.EmployeeManagementController] [doPost] [182] END
-[MEMORY:23910304][2022/01/13 01:53:11.789] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
-[MEMORY:23910304][2022/01/13 01:53:11.790] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:25648872][2022/01/13 02:00:14.055] [controller.EmployeeManagementController] [doPost] [97] START
-[MEMORY:25648872][2022/01/13 02:00:14.056] [controller.EmployeeManagementController] [getRequestType] [193] START
-[MEMORY:25648872][2022/01/13 02:00:14.058] [controller.EmployeeManagementController] [getRequestType] [196] requestTypeName = login
-[MEMORY:25648872][2022/01/13 02:00:14.058] [controller.EmployeeManagementController] [getRequestType] [215] this.responseBean = bean.ResponseBean@3c35070c
-[MEMORY:25648872][2022/01/13 02:00:14.059] [controller.EmployeeManagementController] [getRequestType] [225] END
-[MEMORY:25648872][2022/01/13 02:00:14.059] [controller.EmployeeManagementController] [doPost] [125] RequestType = LOGIN
-[MEMORY:26065720][2022/01/13 02:00:14.060] [controller.BaseServlet] [<init>] [55] START
-[MEMORY:26065720][2022/01/13 02:00:14.060] [controller.BaseServlet] [<init>] [59] END
-[MEMORY:26065720][2022/01/13 02:00:14.060] [controller.EmployeeManagementController] [lambda$1] [141] reqEmpId = empId
-[MEMORY:26065720][2022/01/13 02:00:14.060] [controller.EmployeeManagementController] [doPost] [146] --- ログイン ---
-[MEMORY:26065720][2022/01/13 02:00:14.062] [controller.BaseServlet] [validateLogin] [136] START
-[MEMORY:26065720][2022/01/13 02:00:14.062] [service.BaseService] [<init>] [40] START
-[MEMORY:26065720][2022/01/13 02:00:14.063] [service.BaseService] [<init>] [47] END
-[MEMORY:26065720][2022/01/13 02:00:14.063] [service.EmployeeManagementService] [getEmployeeData] [50] START
-[MEMORY:26065720][2022/01/13 02:00:14.064] [service.EmployeeManagementService] [executeDBAccess] [67] START
-[MEMORY:26065720][2022/01/13 02:00:14.065] [service.EmployeeManagementService] [executeDBAccess] [68] ExecuteCase = FIND_BY_EMPID
-[MEMORY:26065720][2022/01/13 02:00:14.065] [service.BaseService] [executeGetConnection] [54] START
-[MEMORY:26065720][2022/01/13 02:00:14.180] [service.BaseService] [executeGetConnection] [80] END
-[MEMORY:26065720][2022/01/13 02:00:14.181] [service.EmployeeManagementService] [executeSelectQuery] [162] START
-[MEMORY:26065720][2022/01/13 02:00:14.181] [service.EmployeeManagementService] [executeSelectQuery] [192] pEmployeeBeanList[0].empId = 10123
-[MEMORY:26065720][2022/01/13 02:00:14.189] [service.EmployeeManagementService] [executeSelectQuery] [215] SQL: SELECT empid, password, name, mail, programinglanguage, comment FROM Employee WHERE empId = '10123' AND deleteFlg = '0'
-[MEMORY:26065720][2022/01/13 02:00:14.189] [service.EmployeeManagementService] [executeSelectQuery] [234] END
-[MEMORY:26065720][2022/01/13 02:00:14.190] [service.EmployeeManagementService] [executeDBAccess] [85] meta = org.postgresql.jdbc.PgResultSetMetaData@33800467
-[MEMORY:26065720][2022/01/13 02:00:14.190] [service.EmployeeManagementService] [executeDBAccess] [117] reqStatus  = 0
-[MEMORY:26065720][2022/01/13 02:00:14.190] [service.EmployeeManagementService] [executeDBAccess] [118] reqMessage = 
-[MEMORY:26480608][2022/01/13 02:00:14.191] [service.BaseService] [executeCloseSQL] [118] START
-[MEMORY:26480608][2022/01/13 02:00:14.192] [service.BaseService] [executeCloseSQL] [129] END
-[MEMORY:26480608][2022/01/13 02:00:14.192] [service.EmployeeManagementService] [executeDBAccess] [148] END
-[MEMORY:26480608][2022/01/13 02:00:14.192] [service.EmployeeManagementService] [getEmployeeData] [54] END
-■ 例外発生: [controller.BaseServlet] [validateLogin] [157]
-[MEMORY:26480608][2022/01/13 02:00:14.193] [controller.BaseServlet] [validateLogin] [190] isLoginError = true
-[MEMORY:26480608][2022/01/13 02:00:14.193] [controller.BaseServlet] [validateLogin] [192] END
-[MEMORY:26480608][2022/01/13 02:00:14.194] [controller.EmployeeManagementController] [doPost] [161] reqStatus  = 2
-[MEMORY:26480608][2022/01/13 02:00:14.194] [controller.EmployeeManagementController] [doPost] [162] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
-[MEMORY:26480608][2022/01/13 02:00:14.194] [controller.EmployeeManagementController] [doPost] [169] 遷移先 = null
-[MEMORY:26480608][2022/01/13 02:00:14.195] [controller.EmployeeManagementController] [doPost] [182] END
-[MEMORY:26480608][2022/01/13 02:00:14.208] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
-[MEMORY:26480608][2022/01/13 02:00:14.209] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
+情報: Serverのバージョン名:     Apache Tomcat/10.0.6 [日 1月 16 13:11:34 JST 2022]
+情報: Server ビルド:            May 8 2021 15:24:15 UTC [日 1月 16 13:11:34 JST 2022]
+情報: サーバーのバージョン番号: 10.0.6.0 [日 1月 16 13:11:34 JST 2022]
+情報: OS 名:                    Windows 10 [日 1月 16 13:11:34 JST 2022]
+情報: OS バージョン:            10.0 [日 1月 16 13:11:34 JST 2022]
+情報: アーキテクチャ:           amd64 [日 1月 16 13:11:34 JST 2022]
+情報: Java Home:                C:\pleiades\java\16 [日 1月 16 13:11:34 JST 2022]
+情報: JVM バージョン:           16.0.1+9 [日 1月 16 13:11:34 JST 2022]
+情報: JVM ベンダ:               AdoptOpenJDK [日 1月 16 13:11:34 JST 2022]
+情報: CATALINA_BASE:            C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [日 1月 16 13:11:34 JST 2022]
+情報: CATALINA_HOME:            C:\pleiades\tomcat\10 [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.base=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3 [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       -Dcatalina.home=C:\pleiades\tomcat\10 [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       -Dwtp.deploy=C:\Users\smile\LetsEngineer\curriculum\JavaStudy\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.io=ALL-UNNAMED [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.util=ALL-UNNAMED [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [日 1月 16 13:11:34 JST 2022]
+情報: コマンドライン引数:       -XX:+ShowCodeDetailsInExceptionMessages [日 1月 16 13:11:34 JST 2022]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [C:\pleiades\java\16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/pleiades/eclipse//jre/bin/server;C:/pleiades/eclipse//jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-16.0.2\bin;C:\Ruby26-x64\bin;C:\Ruby27-x64\bin;C:\Users\smile\AppData\Local\Microsoft\WindowsApps;C:\Users\smile\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\smile\AppData\Local\GitHubDesktop\bin;C:\Users\smile\AppData\Roaming\npm;;C:\pleiades\eclipse;;.] に存在しません。 [日 1月 16 13:11:34 JST 2022]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [日 1月 16 13:11:34 JST 2022]
+情報: サーバーの初期化 [655]ms [日 1月 16 13:11:34 JST 2022]
+情報: サービス [Catalina] を起動します [日 1月 16 13:11:34 JST 2022]
+情報: サーブレットエンジンの起動：[Apache Tomcat/10.0.6] [日 1月 16 13:11:34 JST 2022]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [日 1月 16 13:11:35 JST 2022]
+情報: サーバーの起動 [449]ms [日 1月 16 13:11:35 JST 2022]

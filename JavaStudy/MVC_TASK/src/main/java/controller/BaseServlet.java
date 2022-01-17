@@ -151,14 +151,16 @@ public abstract class BaseServlet extends HttpServlet {
             // Tips3: 第二引数の渡し方に注意すること
         	EmployeeBean eId = new EmployeeBean(reqEmpId);
         	ems = new EmployeeManagementService();
-        	ems.getEmployeeData(ExecuteCase.FIND_BY_EMPID, eId);
+        	responseBean =  ems.getEmployeeData(ExecuteCase.FIND_BY_EMPID, eId);
 
             // 最初の1件を取得
-            resEmployeeBean =  responseBean.getEmplyeeBeanList().stream().findFirst().orElse(null);
-
+            resEmployeeBean =  this.responseBean.getEmplyeeBeanList().stream().findFirst().orElse(null);
+            Logger.log(new Throwable(), "resEmployeeBean = " + resEmployeeBean);
+            Logger.log(new Throwable(), "resEmployeeBean = " + responseBean);
             if (Objects.nonNull(resEmployeeBean)) {
                 // パスワードチェック
                 final String hashPassword = PasswordHashUtil.getSafetyPassword(reqPassword, reqEmpId);
+                
                 if (resEmployeeBean.getPassword().equals(hashPassword)) {
                     // ログイン成功
                     this.destinationTarget = CONST_DESTINATION_RESULT_JSP;
