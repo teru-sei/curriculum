@@ -38,7 +38,7 @@ public abstract class BaseServlet extends HttpServlet {
     /** ・リクエスト対象（リクエスト&レスポンスを渡す先）のjspファイル */
     protected static final String CONST_DESTINATION_LOGIN_JSP = "/MVC_TASK/login.jsp";
     // FIXME Step-3-2: 実行結果表示用のjspファイルのパスを記述しなさい。
-    protected static final String CONST_DESTINATION_RESULT_JSP = "jdbc:postgresql://localhost:5432/lesson_db/employeeResult.jsp";
+    protected static final String CONST_DESTINATION_RESULT_JSP = "/employeeResult.jsp";
 
     /* フィールド変数の定義 */
     /** フォーワード先 */
@@ -155,13 +155,13 @@ public abstract class BaseServlet extends HttpServlet {
 
             // 最初の1件を取得
             resEmployeeBean =  this.responseBean.getEmplyeeBeanList().stream().findFirst().orElse(null);
-            Logger.log(new Throwable(), "resEmployeeBean = " + resEmployeeBean);
-            Logger.log(new Throwable(), "resEmployeeBean = " + responseBean);
+            
             if (Objects.nonNull(resEmployeeBean)) {
                 // パスワードチェック
                 final String hashPassword = PasswordHashUtil.getSafetyPassword(reqPassword, reqEmpId);
+                final String hashPass = PasswordHashUtil.getSafetyPassword(resEmployeeBean.getPassword(), reqEmpId);
                 
-                if (resEmployeeBean.getPassword().equals(hashPassword)) {
+                if (hashPass.equals(hashPassword)) {
                     // ログイン成功
                     this.destinationTarget = CONST_DESTINATION_RESULT_JSP;
                     message = ConstMessage.SUCCESS_LOGIN;
