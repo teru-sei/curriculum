@@ -85,7 +85,7 @@
             <!-- 1. エラー（message）表示時に使用するlabelタグの準備-->
             <!-- 2. class属性と、適用するスタイルの記述-->
             <!-- Tips: common.cssより赤色の文字色を定義しているスタイルを確認 -->
-			<label class="div-login-form" style=error-label></label>
+			<label class="error-label"><%=message %></label>
             <br>
         <% } %>
         <!-- FIXME Step-1-3: actionに送信先URIを記述しなさい。 -->

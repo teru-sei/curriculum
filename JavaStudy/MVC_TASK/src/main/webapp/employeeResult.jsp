@@ -46,7 +46,7 @@
     <br>
     <% if (requestStatus < 2 && !message.isEmpty()) { %>
         <!-- FIXME Step-2-2: 式（Expression）を用いてメッセージ（message）を表示しなさい。 -->
-        <p><%="SUCCESS_LOGIN"  %></p>
+        <p><%=message %></p>
     <% } %>
     <% if (!empResultList.isEmpty()) { %>
     <div class="div-table-list">
@@ -90,7 +90,7 @@
             <tfoot align="right" class="tfoot-td">
                 <tr>
                     <td colspan="8">
-                        <form action="/MVC_Task/employee" method="post">
+                        <form action="/MVC_TASK/employee" method="post">
                             <div class="div-btn-delete-area">
                                 <input type="hidden" name="sender" value="/employeeResult.jsp"></input>
                                 <input id="deleteEmpId" type="hidden" name="empId" value="">
@@ -105,10 +105,10 @@
     </div>
     <% } %>
     <br>
-    <form action="/MVC_Task/employee" method="get">
+    <form action="/MVC_TASK/employee" method="get">
         <input type="hidden" name="sender" value="/employeeResult.jsp"></input>
         <br>
-        <label id="logout" class="btn-logout" onclick="exeSubmit(this)">
+        <label id="logout" class="btn-logout" onclick="location.href ='/MVC_TASK/login.jsp'">
             <span class="underline">ログアウト</span>
         </label>
     </form>
