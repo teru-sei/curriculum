@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//データベース名：cmind_db
+//ユーザーID：root
+//パスワード：root
+//プロジェクト名：cmind_app
+//schema=""
+-->
+
+<!DOCTYPE generatorConfiguration
+    PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+    "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- <classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" /> -->
+
+    <!-- データベースの接続設定 -->
+    <context id="MySQLTables" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                connectionURL="jdbc:mysql://localhost:3306/cmind_db"
+                userId="root"
+                password="root">
+        </jdbcConnection>
+
+        <!-- SELECT 結果等を格納するドメインモデルを生成する設定 -->
+        <javaModelGenerator targetPackage="com.cmind.entity" targetProject="cmind_app/src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- SQL 設定が記述された XML を生成する設定 -->
+        <sqlMapGenerator targetPackage="com.cmind.mybatis.mapper"  targetProject="cmind_app/src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+
+        <!-- マッパークラスを生成する設定
+        XMLMAPPER：MapperインターフェースクラスとMapperファイルのみ生成
+        MIXEDMAPPER：アノテーションを定義したMapperインターフェースクラスとMapperファイルを生成
+        -->
+        <javaClientGenerator type="MIXEDMAPPER" targetPackage="com.cmind.mybatis.mapper"  targetProject="cmind_app/src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+        <!-- コードを生成するテーブルを指定 「%」でワイルドカード -->
+            <!-- <table schema="cmind" tableName="%" > -->
+            <!-- テーブル名を個別に設定する場合（スキーマ名：cmind） -->
+            <table schema="cmind" tableName="employee"></table>
+    </context>
+</generatorConfiguration>

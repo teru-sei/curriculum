@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}">
+	<link rel="stylesheet" th:href="@{/css/login.css}">
+	<title>ログイン</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="https://letsengineer.jp/storage/images/Freeks.png" alt="title"></div>
+        <h3>Java教育システム</h3>
+        <form th:action="@{/login}" method="post">
+            <table class="table table-bordered col-md-6">
+            <tr class="form-group">
+                <th class="align-middle">ユーザーID</th>
+                <td><input type="text" class="form-controll" name="id"></td>
+            </tr>
+            <tr class="form-group">
+                <th class="align-middle">パスワード</th>
+                <td><input type="password" class="form-controll" name="password"></td>
+            </tr>
+            </table>
+             <!--/* ログインエラー時にメッセージを表示 */-->
+        	<div th:if="${param.error}" class="alert-danger">
+            	ユーザーIDまたはパスワードが正しくありません
+        	</div>
+            <div>
+                <input type="submit" class="btn btn-primary" value="ログイン">
+            </div>
+        </form>
+    </div>
+    <script src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
+    <script src="@{/webjars/bootstrap/4.3.1/js/bootstrap.min.js}"></script>
+</body>
+</html>

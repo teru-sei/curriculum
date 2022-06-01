@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+	display:flex;
+	height:100%;
+}
+
+.side {
+	height:100%;
+	width: 25%;
+	text-align: center;
+}
+
+.main {
+	width: 100%;
+}
+
+.logo img {
+	height: 50px;
+	margin: 20px;
+}
+
+.side li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.header {
+	height: 100px;
+	display: flex;
+ 	justify-content: flex-end;
+ 	align-items: center;
+}
+
+.user {
+	font-size: 20px;
+	margin-right: 50px
+	
+}
+
+.contents {
+ 	display: inline-block;
+}
+
+.contents h3 {
+	color: red;
+}
+
+.footer{
+	height: 50px
+}

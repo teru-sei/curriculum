@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3" style= "height:100%;">
+    <head>
+    	<link rel="stylesheet" th:href="@{/webjars/bootstrap/4.3.1/css/bootstrap.min.css}">
+    	<link rel="stylesheet" th:href="@{/css/top.css}">
+        <title>TopPage</title>
+    </head>
+    <body>
+	    <div class="side">
+	    	<div class="logo"><a href="/top"><img src="https://letsengineer.jp/storage/images/Freeks.png"></a></div>
+	    		<h3>トップページ</h3>
+	    		<ul>
+	    			<li><a href="https://letsengineer.jp/curriculum/Java/2/3">クラス・フィールド変数</a></li>
+	    			<li><a href="https://letsengineer.jp/curriculum/Java/2/4">コンストラクタ</a></li>
+	    			<li><a href="https://letsengineer.jp/curriculum/Java/2/5">メソッド</a></li>
+	    			<li><a href="https://letsengineer.jp/curriculum/Java/2/9">thisとsuperについて</a></li>
+	    			<li><a href="https://letsengineer.jp/curriculum/Java/2/10">final修飾子・static修飾子</a></li>
+	    		</ul>
+	    		<form th:action="@{/logout}" method="post">
+	    			<input type="submit" value="ログアウト"/>
+	    		</form>
+	    </div>	
+	    <div class="main">
+	        <div class="header">
+	        	<div class="user">ユーザー：<span sec:authentication="principal.staff.name"></span></div>
+	        </div>
+	        <div class="contents">
+	        	<h1>Java</h1>
+	        	<h2>C言語をベースに開発されたプログラミング言語です。IT市場を牽引するGoogleが開発に用いる三大言語（Java、C++、Python）の一つとしても知られています。</h2>
+	        	<h3>Javaで開発できるもの：生活と身近なプログラミング言語</h3>
+	        	<h4>デスクトップ向けのアプリの他、Webサービスの開発やAndroid向けのスマホアプリ、金融機関の基幹システム、<br>カーナビや家電の組み込み、IoT機器にも採用されています。</h4>
+	        	<h3>Javaのメリット</h3>
+	        	<h4>Javaの最大のメリットは実行環境の自由度の高さにあるといえます。<br>一度書いたコードはJVMを通してどんなコンピュータでも使えるため、プラットフォームを問わず実行できます。</h4>
+	        	<h3>Javaのデメリット</h3>
+	        	<h4>Javaは高性能な分、他のプログラミング言語よりもコーディングに関するルールや難しい記述が多く、<br>習得の難易度は高い部類に入る言語である点あげられます。</h4>
+	        </div>
+	        <div class="footer"></div>
+	    </div>
+    </body>
+</html>
